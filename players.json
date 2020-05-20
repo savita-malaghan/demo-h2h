@@ -1,0 +1,28 @@
+{
+"left_player_data":
+        {"player":{
+                    "id" : 316, 
+                    "name": "player1"
+                  },
+         "video":{
+                    "url" : "c36e6560-9a2a-4ed7-84dc-987597372223/v-98b3253d-e223-4053-928c-7d6ddfa096da"
+                 }
+        },
+  
+  "right_player_data":
+        {"player":{
+                    "id" : 317,
+                    "name": "player2"
+                  },
+          "video":{
+                    "url" : "c36e6560-9a2a-4ed7-84dc-987597372223/v-c356d25d-06f7-4489-8d32-4ef61e3d46eb"
+                  } 
+        },
+   "left_player_portrait":
+        {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/377/original/player1-portrait.jpg?1588917671"
+        },
+
+  "right_player_portrait":
+        {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/385/original/player2-portrait.jpg?1588917687"
+        }  
+ }
