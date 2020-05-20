@@ -1,0 +1,11 @@
+ {"battle":
+          {
+            "media_cdn_url": "media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638",
+            "intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-b713e280-88ac-421c-b618-7d36d4c1769f",
+            "isEnabled": true, 
+            "show_once": false, 
+            "when": "before", 
+            "trn_intro_img": "media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711",
+            "trn_intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9608d6cd-5c45-4595-8b43-cc2bcfd2ee28"
+          }
+}
