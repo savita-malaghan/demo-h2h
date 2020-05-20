@@ -1,0 +1,17 @@
+  {"tournament_data":
+      {"data":
+        {"tournament":
+            {"id" : 42,
+              "url": "test-1", 
+              "isOpen": true,
+              "vm": "B",
+              "cr": 1,
+              "cb": 1,
+              "video_ratio": "9/16",
+              "status": "live"},
+         "channel":
+            {"url": "auto",
+              "ls": "FB",
+              "p_accm": "H2H"}}
+      }
+  }
