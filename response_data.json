@@ -17,7 +17,7 @@
               "cb": 1,
               "video_ratio": "9/16",
               "status": "live"},
-         "channel":
+         "channel_data":
             {"url": "auto",
               "ls": "FB",
               "p_accm": "H2H"
