@@ -10,7 +10,7 @@
   "trn_intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9608d6cd-5c45-4595-8b43-cc2bcfd2ee28"}
 }
 },
-  "tournament_data":
+ {"tournament_data":
   {"data":
   {"tournament":
   {"id" : 42,
@@ -20,19 +20,20 @@
     "cr": 1,
     "cb": 1,
     "video_ratio": "9/16",
-    "status": "live"},
-    "channel":
+    "status": "live"}}}
+},
+{  "channel":
     {"url": "auto",
       "ls": "FB",
-      "p_accm": "H2H"}}
+      "p_accm": "H2H"}
   },
-  "trn_intro_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711"},
-
-  "prize_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"},
-
-  "asset_host":"//s3.amazonaws.com/h2h-test",
-
-  "left_player_data":
+{"trn_intro_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711"},
+},
+{ "prize_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"},
+},
+{  "asset_host":"//s3.amazonaws.com/h2h-test",
+},
+{ "left_player_data":
   {"data":
   {"player":{
     "id" : 316,
@@ -44,10 +45,10 @@
     "player_portrait":
 {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/377/original/player1-portrait.jpg?1588917671"
 }
-  }
+  }}
   },
 
-  "right_player_data":
+{  "right_player_data":
   {"data":
   {"player":{
     "id" : 317,
@@ -59,12 +60,12 @@
     "player_portrait":
     {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/385/original/player2-portrait.jpg?1588917687"
     }
-    
+  }
   }
   },
 
-  "intro_image":
+{  "intro_image":
   {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638"
   }
-
+}
 }
