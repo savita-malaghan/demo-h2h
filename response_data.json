@@ -29,6 +29,7 @@
 "trn_intro_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711"},
 
  "prize_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"},
+       "partner_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/394/original/sponsor1-image.png?1588917707"},
 
  "asset_host":"//s3.amazonaws.com/h2h-test",
  "left_player_data":
