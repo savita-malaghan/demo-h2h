@@ -23,6 +23,9 @@
     "prize_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"
     },
+     "partner_image": {
+      "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"
+    },
     "intro_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638"
     }
