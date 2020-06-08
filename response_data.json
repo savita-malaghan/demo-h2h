@@ -1,20 +1,18 @@
 {
   "asset_host": "//s3.amazonaws.com/h2h-test",
-
   "channel": {
     "url": "auto",
     "ls": "FB",
     "p_accm": "H2H",
-    "logo_url":"channels/logos/000/000/021/original/car-concept-test.png?1589193526"
+    "logo_url": "channels/logos/000/000/021/original/car-concept-test.png?1589193526"
   },
-
   "tournament": {
     "id": 42,
     "url": "test-1",
     "isOpen": true,
     "vm": "B",
     "cr": 1,
-    "cb": 5,
+    "cb": 1,
     "video_ratio": "9/16",
     "status": "live",
     "trn_intro_image": {
@@ -23,14 +21,13 @@
     "prize_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"
     },
-     "partner_image": {
+    "partner_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"
     },
     "intro_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638"
     }
   },
-
   "battle": {
     "media_cdn_url": "media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638",
     "intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-b713e280-88ac-421c-b618-7d36d4c1769f",
@@ -40,7 +37,6 @@
     "trn_intro_img": "media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711",
     "trn_intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9608d6cd-5c45-4595-8b43-cc2bcfd2ee28"
   },
-
   "players": {
     "battle_1": {
       "left_player_data": {
@@ -122,5 +118,83 @@
     "battle_13": {},
     "battle_14": {},
     "battle_15": {}
-  }
+  },
+  "tournaments": [
+    {
+      "name": "Buzzer Beater",
+      "id": 35
+    },
+    {
+      "name": "concept-car",
+      "id": 36
+    },
+    {
+      "name": "concept-car1",
+      "id": 38
+    },
+    {
+      "name": "car-test",
+      "id": 39
+    },
+    {
+      "name": "test-1",
+      "id": 42
+    },
+    {
+      "name": "test-22",
+      "id": 44
+    }
+  ],
+  "users": [
+    {
+      "name": "Savita",
+      "id": 95
+    },
+    {
+      "name": "Sai",
+      "id": 96
+    },
+    {
+      "name": "Subrat",
+      "id": 97
+    }
+  ],
+  "votes": [
+      {
+        "id": 379,
+        "player_id": 316,
+        "tournament_id": 42,
+        "user_id": 95,
+        "b_num": 1
+      },
+      {
+        "id": 380,
+        "player_id": 322,
+        "tournament_id": 42,
+        "user_id": 95,
+        "b_num": 4
+      },
+      {
+        "id": 381,
+        "player_id": 324,
+        "tournament_id": 42,
+        "user_id": 95,
+        "b_num": 5
+      },
+      {
+        "id": 382,
+        "player_id": 324,
+        "tournament_id": 42,
+        "user_id": 96,
+        "b_num": 5
+      },
+      {
+        "id": 383,
+        "player_id": 325,
+        "tournament_id": 42,
+        "user_id": 97,
+        "b_num": 5
+      }
+  ]
 }
+
