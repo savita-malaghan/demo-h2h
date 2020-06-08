@@ -1,61 +1,123 @@
 {
+  "asset_host": "//s3.amazonaws.com/h2h-test",
 
-       "battle":
-                {"media_cdn_url": "media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638",
-                  "intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-b713e280-88ac-421c-b618-7d36d4c1769f",
-                  "isEnabled": true,
-                  "show_once": false,
-                  "when": "before",
-                  "trn_intro_img": "media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711",
-                  "trn_intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9608d6cd-5c45-4595-8b43-cc2bcfd2ee28"
-                },
-      "tournament_data":
-        {"data":
-            {"tournament":
-              {"id" : 42,
-                "url": "test-1",
-                "isOpen": true,
-                "vm": "B",
-                "cr": 1,
-                "cb": 1,
-                "video_ratio": "9/16",
-                "status": "live"}
-            }
-        },
-  "channel":
-    {"url": "auto",
+  "channel": {
+    "url": "auto",
     "ls": "FB",
-    "p_accm": "H2H"},
-"trn_intro_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711"},
+    "p_accm": "H2H",
+    "logo_url":"channels/logos/000/000/021/original/car-concept-test.png?1589193526"
+  },
 
- "prize_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"},
-       "partner_image":{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/394/original/sponsor1-image.png?1588917707"},
+  "tournament": {
+    "id": 42,
+    "url": "test-1",
+    "isOpen": true,
+    "vm": "B",
+    "cr": 1,
+    "cb": 1,
+    "video_ratio": "9/16",
+    "status": "live",
+    "trn_intro_image": {
+      "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711"
+    },
+    "prize_image": {
+      "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"
+    },
+    "intro_image": {
+      "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638"
+    }
+  },
 
- "asset_host":"//s3.amazonaws.com/h2h-test",
- "left_player_data":
-     {"player":{
-        "id" : 316,
+  "battle": {
+    "media_cdn_url": "media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638",
+    "intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-b713e280-88ac-421c-b618-7d36d4c1769f",
+    "isEnabled": true,
+    "show_once": false,
+    "when": "before",
+    "trn_intro_img": "media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711",
+    "trn_intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9608d6cd-5c45-4595-8b43-cc2bcfd2ee28"
+  },
+
+  "players": {
+    "battle_1": {
+      "left_player_data": {
+        "id": 316,
         "name": "player1",
-        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-98b3253d-e223-4053-928c-7d6ddfa096da"
-        },
-
-      "player_portrait":
-          {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/377/original/player1-portrait.jpg?1588917671"
-          }
-},
- "right_player_data":
-
-      {"player":{
-          "id" : 317,
-          "name": "player2",
-          "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-c356d25d-06f7-4489-8d32-4ef61e3d46eb"
-        },
-        "player_portrait":
-        {"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/385/original/player2-portrait.jpg?1588917687"
-        }
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-98b3253d-e223-4053-928c-7d6ddfa096da",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/377/original/player1-portrait.jpg?1588917671"
       },
-
-  "intro_image":
-{"src":"//s3.amazonaws.com/h2h-test/media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638"
-}
+      "right_player_data": {
+        "id": 317,
+        "name": "player2",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-c356d25d-06f7-4489-8d32-4ef61e3d46eb",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/385/original/player2-portrait.jpg?1588917687"
+      }
+    },
+    "battle_2": {
+      "left_player_data": {
+        "id": 318,
+        "name": "player3",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-2198d759-b2c4-44c5-af61-ca0f7b4c5c54",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/386/original/player3-portrait.jpg?1588917688"
+      },
+      "right_player_data": {
+        "id": 319,
+        "name": "player4",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-925d343a-0422-4f8c-b670-3d7fbcc16231",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/387/original/player4-portrait.jpg?1588917690"
+      }
+    },
+    "battle_3": {
+      "left_player_data": {
+        "id": 320,
+        "name": "player5",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-4041f679-8d52-4756-9b0b-95e9d1236512",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/388/original/player5-portrait.jpg?1588917692"
+      },
+      "right_player_data": {
+        "id": 321,
+        "name": "player6",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9c2b9f82-a791-4c46-822a-721d9418ecb8",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/389/original/player6-portrait.jpg?1588917694"
+      }
+    },
+    "battle_4": {
+      "left_player_data": {
+        "id": 322,
+        "name": "player7",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-983ce2eb-78c6-467a-a3cc-4a0b9f53dd8a",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/390/original/player7-portrait.jpg?1588917696"
+      },
+      "right_player_data": {
+        "id": 323,
+        "name": "player8",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-ecddcebb-86ab-4bf0-b200-1ba4075ba764",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/391/original/player8-portrait.jpg?1588917698"
+      }
+    },
+    "battle_5": {
+      "left_player_data": {
+        "id": 324,
+        "name": "player9",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-6c92dfde-4307-4e01-bd30-f5cd41a37486",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/392/original/player9-portrait.jpg?1588917700"
+      },
+      "right_player_data": {
+        "id": 325,
+        "name": "player10",
+        "video_url": "c36e6560-9a2a-4ed7-84dc-987597372223/v-316d528e-053d-4655-b7c7-4f887e2cf925",
+        "player_portrait": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/378/original/player10-portrait.jpg?1588917673"
+      }
+    },
+    "battle_6": {},
+    "battle_7": {},
+    "battle_8": {},
+    "battle_9": {},
+    "battle_10": {},
+    "battle_11": {},
+    "battle_12": {},
+    "battle_13": {},
+    "battle_14": {},
+    "battle_15": {}
+  }
 }
