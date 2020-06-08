@@ -1,0 +1,26 @@
+{tournaments: [
+                {
+                    "name": "Buzzer Beater",
+                    "id": 35
+                },
+                {
+                    "name": "concept-car",
+                    "id": 36
+                },
+                {
+                    "name": "concept-car1",
+                    "id": 38
+                },
+                {
+                    "name": "car-test",
+                    "id": 39
+                },
+                {
+                    "name": "test-1",
+                    "id": 42
+                },
+                {
+                    "name": "test-22",
+                    "id": 44
+                }
+            ]}
