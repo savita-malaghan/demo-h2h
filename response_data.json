@@ -18,6 +18,7 @@
     "trn_intro_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/395/original/tournament-intro-image.jpg?1588917711"
     },
+    "trn_intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-9608d6cd-5c45-4595-8b43-cc2bcfd2ee28",
     "prize_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/393/original/prize-image.png?1588917703"
     },
@@ -26,7 +27,8 @@
     },
     "intro_image": {
       "src": "//s3.amazonaws.com/h2h-test/media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638"
-    }
+    },
+    "intro_video": "c36e6560-9a2a-4ed7-84dc-987597372223/v-b713e280-88ac-421c-b618-7d36d4c1769f"
   },
   "battle": {
     "media_cdn_url": "media/media_files/000/000/361/original/battle-intro-image1.jpg?1588917638",
@@ -119,6 +121,32 @@
     "battle_14": {},
     "battle_15": {}
   },
+  "tournaments": [
+    {
+      "name": "Buzzer Beater",
+      "id": 35
+    },
+    {
+      "name": "concept-car",
+      "id": 36
+    },
+    {
+      "name": "concept-car1",
+      "id": 38
+    },
+    {
+      "name": "car-test",
+      "id": 39
+    },
+    {
+      "name": "test-1",
+      "id": 42
+    },
+    {
+      "name": "test-22",
+      "id": 44
+    }
+  ],
   "users": [
     {
       "name": "Savita",
@@ -178,6 +206,5 @@
       "percentage": 70
     }
   ]
-  
 }
 
