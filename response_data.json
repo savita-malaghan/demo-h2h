@@ -136,6 +136,48 @@
       "fb_id": "2993660840753797"
     }
   ],
+  "votes": [
+    {
+      "id": 379,
+      "player_id": 316,
+      "tournament_id": 42,
+      "user_id": 95,
+      "b_num": 1,
+      "percentage": 40
+    },
+    {
+      "id": 380,
+      "player_id": 322,
+      "tournament_id": 42,
+      "user_id": 95,
+      "b_num": 4,
+      "percentage": 60
+    },
+    {
+      "id": 381,
+      "player_id": 324,
+      "tournament_id": 42,
+      "user_id": 95,
+      "b_num": 5,
+      "percentage": 52
+    },
+    {
+      "id": 382,
+      "player_id": 324,
+      "tournament_id": 42,
+      "user_id": 96,
+      "b_num": 5,
+      "percentage": 48
+    },
+    {
+      "id": 383,
+      "player_id": 325,
+      "tournament_id": 42,
+      "user_id": 97,
+      "b_num": 5,
+      "percentage": 70
+    }
+  ]
   
 }
 
